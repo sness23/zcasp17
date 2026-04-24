@@ -1,0 +1,43 @@
+# Model weights (too large, download on demand)
+downloads/
+weights/
+*.pt
+*.ckpt
+
+# Prediction outputs (reproducible, large)
+results/
+out/
+predictions/
+*.cif
+*.pdb.gz
+
+# MSA caches
+msa_cache/
+colabfold_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Build artifacts
+dist/
+build/
+node_modules/
