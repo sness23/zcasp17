@@ -1,0 +1,30 @@
+{
+  "target_id": "L4024",
+  "casp_year": 16,
+  "set": "L4000",
+  "chains": [
+    {
+      "id": "A",
+      "type": "protein",
+      "sequence": "SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQCS",
+      "count": 1,
+      "source_chains": [
+        "A"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": null,
+      "smiles": "Cc1cc(CN(CCC2CCCCC2)C(=O)NC2CC2)no1",
+      "count": 1,
+      "sdf_paths": [
+        "ligands/lig_01_ligand_LIG_A_401.sdf"
+      ],
+      "source_name": "LIG"
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": "L4000 \u2014 LIG"
+}

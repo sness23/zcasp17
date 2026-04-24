@@ -1,0 +1,19 @@
+[
+  {
+    "name": "L1002",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "IIGGTESKPHSRPYMAYLEIVTSNGPSKFCGGFLIRRNFVLTAAHCAGRSITVTLGAHNITEEEDTWQKLEVIKQFRHPKYNTSTLHHDIMLLKLKEKASLTLAVGTLPFPSQKNFVPPGRMCRVAGWGRTGVLKPGSDTLQEVKLRLMDPQACSHFRDFDHNLQLCVGNPRKTKSAFKGDSGGPLLCAGVAQGIVSYGRSDAKPPAVFTRISHYRPWINQILQAN",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CCc1ccc2c(CCNC(C)=O)c([C@@H](C3=C(O)[C@@H](c4ccccc4)CC3=O)c3ccccc3)[nH]c2c1",
+          "count": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "target_id": "R1136v1",
+  "casp_year": 15,
+  "set": null,
+  "chains": [
+    {
+      "id": "0",
+      "type": "rna",
+      "sequence": "GGAUACGUCUACGCUCAGUGACGGACUCUCUUCGGAGAGUCUGACAUCCGAACCAUACACGGAUGUGCCUCGCCGAACAGUCUACGGCGAGCUUAAGCGCUGGGGACGCCCAACGCAUCACAAAGACUGAGUGAUGAACCAGAAGUAUGGACUGGUUGCGUUGGUGGAGACGGUCGGGUCCAGUUCGCUGUCGAGUAGAGUGUGGGCUCCAUCGACGCCGCUUUAAGGUCCCCAAUCGUGGCGUGUCGGCCUGCUUCGGCAGGCACUGGCGCCGGGACCUUGAAGAGAUGAGAUUUCGAUCUCAUCUUUGGGUGUCUCUGGUGCUUGAGGGCCCUGUGUUCGCACAGGGCCGCUCACUGGGUGUGGACGUAUCC",
+      "count": 1,
+      "source_chains": [
+        "0"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": "J93",
+      "smiles": "CN(CCO)c1cc2c(s1)cc(s2)/C=C(\\C#N)/c3ccc(cc3)C#N",
+      "count": 1,
+      "sdf_paths": []
+    },
+    {
+      "id": "lig_02",
+      "ccd": "1TU",
+      "smiles": "Cc1nc(c(n1C)O)Cc2cc(c(c(c2)F)O)F",
+      "count": 1,
+      "sdf_paths": []
+    },
+    {
+      "id": "lig_03",
+      "ccd": "K",
+      "smiles": "[K+]",
+      "count": 1,
+      "sdf_paths": []
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": ""
+}

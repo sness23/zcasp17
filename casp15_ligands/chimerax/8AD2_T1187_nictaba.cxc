@@ -1,0 +1,49 @@
+# ChimeraX script: T1187 - 8AD2 Nictaba lectin
+# Binding site for NAG (N-acetylglucosamine / GlcNAc)
+
+# Open structure
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8AD2.pdb
+
+# Basic display setup
+hide atoms
+show cartoons
+color bychain
+
+# Style the protein
+cartoon style protein modeh tube radius 1.2
+transparency cartoons 50
+
+# === NAG binding site (Chain A) ===
+# Residues: A40, D148, K149, W151
+select /A:40,148,149,151
+color sel gold target c
+show sel atoms
+style sel stick
+
+# Show all NAG ligands
+select :NAG
+show sel atoms
+style sel ball
+color sel magenta
+
+# Show Zn ions
+select :ZN
+show sel atoms
+style sel sphere
+color sel gray
+
+# Add surface around binding site
+select /A:40,148,149,151
+surface sel enclose sel
+transparency surface 70
+
+# Labels for NAG
+label :NAG@C1 text "NAG" height 1.5 color white
+
+# Center view on carbohydrate binding site
+select /A:40,148,149,151 :NAG
+view sel pad 10
+~select
+
+# Save session
+save /home/sness/data/vaults/casp/casp15_ligands/chimerax/8AD2_T1187_session.cxs

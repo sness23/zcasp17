@@ -1,0 +1,19 @@
+[
+  {
+    "name": "L2002",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "IIGGRESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSRRVRRNRNVNPVALPRAQEGLRPGTLCTVAGWGRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRS",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "COC(=O)N(C)Cc1c(C(=O)O)n(Cc2cccc3ccc(F)cc23)c2ccccc12",
+          "count": 1
+        }
+      }
+    ]
+  }
+]

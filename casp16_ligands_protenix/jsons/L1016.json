@@ -1,0 +1,19 @@
+[
+  {
+    "name": "L1016",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "IIGGTESKPHSRPYMAYLEIVTSNGPSKFCGGFLIRRNFVLTAAHCAGRSITVTLGAHNITEEEDTWQKLEVIKQFRHPKYNTSTLHHDIMLLKLKEKASLTLAVGTLPFPSQKNFVPPGRMCRVAGWGRTGVLKPGSDTLQEVKLRLMDPQACSHFRDFDHNLQLCVGNPRKTKSAFKGDSGGPLLCAGVAQGIVSYGRSDAKPPAVFTRISHYRPWINQILQAN",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CN(C)C(=O)Cc1c(C(=O)O)n(Cc2csc3ccc(F)cc23)c2ccccc12",
+          "count": 1
+        }
+      }
+    ]
+  }
+]

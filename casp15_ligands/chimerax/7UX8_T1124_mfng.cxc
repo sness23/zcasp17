@@ -1,0 +1,63 @@
+# ChimeraX script: T1124 - 7UX8 MfnG methyltransferase
+# Binding sites for SAH (S-adenosyl homocysteine) and TYR (tyrosine substrate)
+
+# Open structure
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/7UX8.pdb
+
+# Basic display setup
+hide atoms
+show cartoons
+color bychain
+
+# Style the protein
+cartoon style protein modeh tube radius 1.2
+transparency cartoons 50
+
+# === SAH binding site (Chain A) ===
+# Residues: Q159, Y162, V166, I169, D199, G201, C202, G203, T204, G205, Y207, D224, V225, I228, G250, D251, F252, W253, A267, N268, I269, L272
+select /A:159,162,166,169,199,201-205,207,224,225,228,250-253,267-269,272
+color sel cornflowerblue target c
+show sel atoms
+style sel stick
+
+# === TYR binding site (Chains A, B) ===
+# Chain A: K122, H125, D126, A130, I157, Y162, L165, I169, W172, N268, H271, L272, Q300, F319, S322, M323
+# Chain B: Y32, I36, W39
+select /A:122,125,126,130,157,162,165,169,172,268,271,272,300,319,322,323
+color sel gold target c
+show sel atoms
+style sel stick
+
+select /B:32,36,39
+color sel gold target c
+show sel atoms
+style sel stick
+
+# Show ligands
+select :SAH
+show sel atoms
+style sel ball
+color sel magenta
+
+select :TYR
+show sel atoms
+style sel ball
+color sel red
+
+# Add surface around active site
+select /A:159,162,166,169,199,201-205,207,224,225,228,250-253,267-269,272 | /A:122,125,126,130,157,162,165,169,172,268,271,272,300,319,322,323
+surface sel enclose sel
+transparency surface 75
+color surface #E0E0E0
+
+# Labels
+label :SAH text "SAH" height 2 color white
+label :TYR@CA text "TYR" height 2 color white
+
+# Center view on ligands
+select :SAH :TYR
+view sel pad 5
+~select
+
+# Save session
+save /home/sness/data/vaults/casp/casp15_ligands/chimerax/7UX8_T1124_session.cxs

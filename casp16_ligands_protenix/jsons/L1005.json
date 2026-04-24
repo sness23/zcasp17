@@ -1,0 +1,19 @@
+[
+  {
+    "name": "L1005",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "IIGGTESKPHSRPYMAYLEIVTSNGPSKFCGGFLIRRNFVLTAAHCAGRSITVTLGAHNITEEEDTWQKLEVIKQFRHPKYNTSTLHHDIMLLKLKEKASLTLAVGTLPFPSQKNFVPPGRMCRVAGWGRTGVLKPGSDTLQEVKLRLMDPQACSHFRDFDHNLQLCVGNPRKTKSAFKGDSGGPLLCAGVAQGIVSYGRSDAKPPAVFTRISHYRPWINQILQAN",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "COC(=O)NCc1c(C(=O)O)n(Cc2cccc3ccccc23)c2ccc(F)cc12",
+          "count": 1
+        }
+      }
+    ]
+  }
+]

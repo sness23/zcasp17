@@ -1,0 +1,90 @@
+{
+  "target_id": "H1114",
+  "casp_year": 15,
+  "set": null,
+  "chains": [
+    {
+      "id": "chainA_513aa",
+      "type": "protein",
+      "sequence": "LDLFVSPLGRVEGDLDVRVTINDGVVTSAWTEAAMFRGFEIILRGKDPQAGLIVCPRICGICGGSHLYKSAYALDTAWRTHMPPNATLIRNICQACETLQSIPRYFYALFAIDLTNKNYAKSKLYDEAVRRFAPYVGTSYQPGVVLSAKPVEVYAIFGGQWPHSSFMVPGGVMSAPTLSDVTRAIAILEHWNDNWLEKQWLGCSVDRWLENKTWNDVLAWVDENESQYNSDCGFFIRYCLDVGLDKYGQGVGNYLATGTYFEPSLYENPTIEGRNAALIGRSGVFADGRYFEFDQANVTEDVTHSFYEGNRPLHPFEGETIPVNPEDGRRQGKYSWAKSPRYAVPGLGNVPLETGPLARRMAASAPDAETHQDDDPLFADIYNAIGPSVMVRQLARMHEGPKYYKWVRQWLDDLELKESFYTKPVEYAEGKGFGSTEAARGALSDWIVIEDSKIKNYQVVTPTAWNIGPRDASEVLGPIEQALVGSPIVDAEDPVELGHVARSFDSCLVCTVH",
+      "count": 8,
+      "source_chains": [
+        "A",
+        "C",
+        "E",
+        "H",
+        "K",
+        "M",
+        "P",
+        "R"
+      ]
+    },
+    {
+      "id": "chainB_322aa",
+      "type": "protein",
+      "sequence": "ASVLWFQGGACSGNTMSFLNADEPNVVDLIVDFGLDLLWHPSLGLELGNNAQKVFWDCAKGERPLDIFVFEGTVIEAPNGTGQMDMFAGRPMKDWVTDLAGAAQIVVAIGDCACFGGIPAMEPNPSGSTGLQFHKREKGGFLGPDFRSKMGLPVINVPGCPAHPDWITQILVALATGRAGDITLDDLHRPETFFKTFTQTGCTRVQFFEYKQSTLSFGEGTRTGCLFYEFGCRGPMTHSPCNRILWNRQSSKTRAGMPCLGCTEPEFPHFDLAPGTVFKTQKVSGMIPKEVPEGTDHLTYMGLAAAARIAAPQWSKEDMFVV",
+      "count": 8,
+      "source_chains": [
+        "B",
+        "D",
+        "G",
+        "I",
+        "L",
+        "N",
+        "Q",
+        "S"
+      ]
+    },
+    {
+      "id": "chainF_170aa",
+      "type": "protein",
+      "sequence": "SPVDGIRRRLDDPQVAEALNSLLDHADLLAVLVKGLDGFVRRGDDIANNLTSAIGELKALNAADTPIPALAALKDVDLAGLANSLATLSGGLVKATPALNAVLDSLTDQRGAEVLSALGDALVAARTSAPPAPRGVRGMWKTLRAAAKDPDVGRGVSYLIEVARVFGSKV",
+      "count": 4,
+      "source_chains": [
+        "F",
+        "J",
+        "O",
+        "T"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": "3NI",
+      "smiles": "[Ni+3]",
+      "count": 8,
+      "sdf_paths": []
+    },
+    {
+      "id": "lig_02",
+      "ccd": "MG",
+      "smiles": "[Mg+2]",
+      "count": 8,
+      "sdf_paths": []
+    },
+    {
+      "id": "lig_03",
+      "ccd": "FCO",
+      "smiles": "C(#N)[Fe](=C=O)C#N",
+      "count": 8,
+      "sdf_paths": []
+    },
+    {
+      "id": "lig_04",
+      "ccd": "F3S",
+      "smiles": "S1[Fe]2S[Fe]3[S]2[Fe]1S3",
+      "count": 24,
+      "sdf_paths": []
+    },
+    {
+      "id": "lig_05",
+      "ccd": "MQ7",
+      "smiles": "CC1=C(C(=O)c2ccccc2C1=O)C\\C=C(/C)\\CC\\C=C(/C)\\CC\\C=C(/C)\\CC\\C=C(/C)\\CC\\C=C(/C)\\CC\\C=C(/C)\\CCC=C(C)C",
+      "count": 8,
+      "sdf_paths": []
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+{
+  "target_id": "R1126",
+  "casp_year": 15,
+  "set": null,
+  "chains": [
+    {
+      "id": "0",
+      "type": "rna",
+      "sequence": "GGAAUCUCGCCCGAUGUUCGCAUCGGGAUUUGCAGGUCCAUGGAUUACACCAUGCAACGCAGACCUGUAGAUGCCACGCUAGCCGUGGUGAGGGUCGGGUCCAGAUGUCAUUCGACUUUAACGCGCCUAAGCGUUGAAGGCGUGUUAGAGCAGAUAGUUCGCUAUCUGGGGAGCCUGUUCGCAGGCUCAGGAGCCUUCGGGCUCCUAGCGCUAUUACCCCGGACACCACCGGGCAGACAAGUAAUGGUGCUCCUCGAAUGACUUCUGUUGAGUAGAGUGUGGGCUCCGCGGCUAGUGUGCACCUUAGCGGUGAAUGUCUGACACCGUUAAGGUGGUUACUCUUCGGAGUAACGCCGAGAUUCC",
+      "count": 1,
+      "source_chains": [
+        "0"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": "K",
+      "smiles": "[K+]",
+      "count": 1,
+      "sdf_paths": []
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": ""
+}

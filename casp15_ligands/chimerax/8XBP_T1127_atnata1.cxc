@@ -1,0 +1,58 @@
+# ChimeraX script: T1127 - 8XBP AtNATA1 N-acetyltransferase
+# Binding site for ACO (Acetyl-CoA)
+
+# Open structure
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8XBP.pdb
+
+# Basic display setup
+hide atoms
+show cartoons
+color bychain
+
+# Style the protein
+cartoon style protein modeh tube radius 1.2
+transparency cartoons 50
+
+# === ACO (Acetyl-CoA) binding site ===
+# Chain A: F48, E49, I150, E151, D152, I153, F154, M155, Y159, R160, R161, K162,
+#          G163, F164, G165, K166, W186, I187, V188, N192, N194, A195, N197, F198, Y199, Q201, M202
+select /A:48,49,150-155,159-166,186-188,192,194,195,197-199,201,202
+color sel gold target c
+show sel atoms
+style sel stick
+
+# Show Acetyl-CoA ligand
+select :ACO
+show sel atoms
+style sel stick
+color sel magenta
+
+# Key phosphate binding residues
+select /A:160,161,162,163  # R160, R161, K162, G163 - phosphate interactions
+color sel cornflowerblue target c
+
+# Catalytic residues
+select /A:151,152  # E151, D152
+color sel red target c
+
+# Show Ca ions
+select :CA
+show sel atoms
+style sel sphere
+color sel green
+
+# Add surface around CoA binding site
+select /A:48,49,150-155,159-166,186-188,192,194,195,197-199,201,202
+surface sel enclose sel
+transparency surface 70
+
+# Labels
+label :ACO@S1P text "Acetyl-CoA" height 2 color white
+
+# Center view on CoA
+select :ACO
+view sel pad 5
+~select
+
+# Save session
+save /home/sness/data/vaults/casp/casp15_ligands/chimerax/8XBP_T1127_session.cxs

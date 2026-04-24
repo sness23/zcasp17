@@ -1,0 +1,19 @@
+[
+  {
+    "name": "T1152",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "MYTVKPGDTMWKIAVKYQIGISEIIAANPQIKNPNLIYPGQKINIP",
+          "count": 2
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CCD_NAG",
+          "count": 3
+        }
+      }
+    ]
+  }
+]

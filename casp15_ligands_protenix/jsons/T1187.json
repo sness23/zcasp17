@@ -1,0 +1,19 @@
+[
+  {
+    "name": "T1187",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "GQGQWIAARDLSITWVDNPQYWTWKTVDPNIEVAELRRVAWLDIYGKIETKNLIRKTSYAVYLVFKLTDNPRELERATASLRFVNEVAEGAGIEGTTVFISKKKKLPGELGRFPHLRSDGWLEIKLGEFFNNLGEDGEVEMRLMEINDKTWKSGIIVKGFDIRPN",
+          "count": 2
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CCD_NAG",
+          "count": 6
+        }
+      }
+    ]
+  }
+]

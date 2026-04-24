@@ -1,0 +1,27 @@
+{
+  "target_id": "T1186",
+  "casp_year": 15,
+  "set": null,
+  "chains": [
+    {
+      "id": "A",
+      "type": "protein",
+      "sequence": "SAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTAPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGDYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAE",
+      "count": 1,
+      "source_chains": [
+        "A"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": "LIG",
+      "smiles": null,
+      "count": 1,
+      "sdf_paths": []
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": ""
+}

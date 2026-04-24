@@ -1,0 +1,39 @@
+{
+  "target_id": "L2001",
+  "casp_year": 16,
+  "set": "L2000",
+  "chains": [
+    {
+      "id": "chainA_226aa",
+      "type": "protein",
+      "sequence": "IIGGRESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSRRVRRNRNVNPVALPRAQEGLRPGTLCTVAGWGRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRSFK",
+      "count": 1,
+      "source_chains": [
+        "A"
+      ]
+    },
+    {
+      "id": "chainB_227aa",
+      "type": "protein",
+      "sequence": "IIGGRESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSRRVRRNRNVNPVALPRAQEGLRPGTLCTVAGWGRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRSFKL",
+      "count": 1,
+      "source_chains": [
+        "B"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": null,
+      "smiles": "CC(=O)NCCc1c([C@@H](C2=C(O)[C@@](C)(c3ccccc3)OC2=O)c2ccccc2)[nH]c2cc(F)ccc12",
+      "count": 1,
+      "sdf_paths": [
+        "ligands/lig_01_ligand_761_C_1.sdf"
+      ],
+      "source_name": "761"
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": "L2000 \u2014 761"
+}

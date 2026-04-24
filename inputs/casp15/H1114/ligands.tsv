@@ -1,0 +1,6 @@
+lig_id	ccd	smiles	count	sdf_paths
+lig_01	3NI	[Ni+3]	8	
+lig_02	MG	[Mg+2]	8	
+lig_03	FCO	C(#N)[Fe](=C=O)C#N	8	
+lig_04	F3S	S1[Fe]2S[Fe]3[S]2[Fe]1S3	24	
+lig_05	MQ7	CC1=C(C(=O)c2ccccc2C1=O)C\C=C(/C)\CC\C=C(/C)\CC\C=C(/C)\CC\C=C(/C)\CC\C=C(/C)\CC\C=C(/C)\CCC=C(C)C	8	

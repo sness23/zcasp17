@@ -1,0 +1,32 @@
+{
+  "target_id": "T1152",
+  "casp_year": 15,
+  "set": null,
+  "chains": [
+    {
+      "id": "chainA_46aa",
+      "type": "protein",
+      "sequence": "MYTVKPGDTMWKIAVKYQIGISEIIAANPQIKNPNLIYPGQKINIP",
+      "count": 2,
+      "source_chains": [
+        "A",
+        "B"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": "NAG",
+      "smiles": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)CO)O)O",
+      "count": 3,
+      "sdf_paths": [
+        "ligands/lig_01_NAG.sdf",
+        "ligands/lig_02_NAG.sdf",
+        "ligands/lig_03_NAG.sdf"
+      ]
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": ""
+}

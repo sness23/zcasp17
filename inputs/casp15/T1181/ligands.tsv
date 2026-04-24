@@ -1,0 +1,5 @@
+lig_id	ccd	smiles	count	sdf_paths
+lig_01	ZN	[Zn+2]	3	
+lig_02	CA	[Ca+2]	1	
+lig_03	OAA	C(C(=O)C(=O)O)C(=O)[O-]	5	
+lig_04	OAb	CC(=O)N[C@H]1[C@H]([C@@H]([C@H](OC1O)COP(=O)(O)O)O)OC(=O)C	5	

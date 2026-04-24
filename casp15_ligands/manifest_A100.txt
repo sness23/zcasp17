@@ -1,0 +1,7 @@
+# 5 CASP15 ligand targets 1536-2048 tokens — needs A100 80GB
+# Run with: ./run_batch.sh manifest_A100.txt
+T1158v1
+T1158v2
+T1158v3
+T1158v4
+H1135

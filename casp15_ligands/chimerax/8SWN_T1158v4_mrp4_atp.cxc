@@ -1,0 +1,61 @@
+# ChimeraX script: T1158v4 - 8SWN MRP4 transporter + ATP
+# Binding site for ATP
+
+# Open structure
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8SWN.pdb
+
+# Basic display setup
+hide atoms
+show cartoons
+color bychain
+
+# Style the protein
+cartoon style protein modeh tube radius 1.2
+transparency cartoons 50
+
+# === ATP binding site ===
+# Chain A: R284, L520, T533, T534, L535, S536, G537, G538, Q539, A564, D814,
+#          Y1050, V1057, R1076, T1077, G1078, A1079, G1080, K1081, S1082, S1083,
+#          Q1122, Q1202, H1233
+select /A:284,520,533-539,564,814,1050,1057,1076-1083,1122,1202,1233
+color sel gold target c
+show sel atoms
+style sel stick
+
+# Show ATP ligands
+select :ATP
+show sel atoms
+style sel ball
+color sel magenta
+
+# Show PTY (if present)
+select :PTY
+show sel atoms
+style sel stick
+color sel cyan
+
+# Show Mg ions
+select :MG
+show sel atoms
+style sel sphere
+color sel green
+
+# Walker A motif (P-loop) - typically GxxGxGKS/T
+select /A:1078-1083
+color sel cornflowerblue target c
+
+# Add surface around nucleotide binding domains
+select /A:284,520,533-539,564,814,1050,1057,1076-1083,1122,1202,1233
+surface sel enclose sel
+transparency surface 70
+
+# Labels
+label :ATP@N1 text "ATP" height 2 color white
+
+# Center view on ATP binding site
+select :ATP :MG
+view sel pad 5
+~select
+
+# Save session
+save /home/sness/data/vaults/casp/casp15_ligands/chimerax/8SWN_T1158v4_session.cxs

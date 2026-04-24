@@ -1,0 +1,39 @@
+{
+  "target_id": "L4006",
+  "casp_year": 16,
+  "set": "L4000",
+  "chains": [
+    {
+      "id": "chainA_301aa",
+      "type": "protein",
+      "sequence": "SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQCS",
+      "count": 1,
+      "source_chains": [
+        "A"
+      ]
+    },
+    {
+      "id": "chainB_304aa",
+      "type": "protein",
+      "sequence": "SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQCSGVT",
+      "count": 1,
+      "source_chains": [
+        "B"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": null,
+      "smiles": "O=C([O-])c1cccc(-c2cccnc2)c1",
+      "count": 1,
+      "sdf_paths": [
+        "ligands/lig_01_ligand_LIG_A_1501.sdf"
+      ],
+      "source_name": "LIG"
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": "L4000 \u2014 LIG"
+}

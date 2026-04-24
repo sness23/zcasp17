@@ -1,0 +1,46 @@
+# ChimeraX Master Script: Load all CASP15 ligand binding targets
+# Run this script to open all structures in separate models
+
+# RuvAB complexes (Holliday junction processing)
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/7PBL.pdb  # H1171
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/7PBP.pdb  # H1172
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/7PBR.pdb  # T1170
+
+# [NiFe]-hydrogenase
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/7UTD.pdb  # H1114
+
+# Methyltransferase
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/7UX8.pdb  # T1124
+
+# Lectin
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8AD2.pdb  # T1187
+
+# Siderophore transporter
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8B43.pdb  # T1118v1
+
+# Chitinase
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8C6Z.pdb  # T1188
+
+# MRP4 transporter variants
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8SWN.pdb  # T1158v4 (ATP)
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8SX7.pdb  # T1158v3 (DHEAS)
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8SX8.pdb  # T1158v1 (PGE1)
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8SXB.pdb  # T1158v2 (PGE2)
+
+# N-acetyltransferase
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8XBP.pdb  # T1127
+
+# Basic styling for all
+hide atoms
+show cartoons
+color bychain
+transparency cartoons 40
+
+# Show all ligands
+select ligand
+show sel atoms
+style sel ball
+~select
+
+# Model panel shows all structures
+ui tool show "Model Panel"

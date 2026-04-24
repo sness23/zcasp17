@@ -1,0 +1,59 @@
+# ChimeraX script: T1188 - 8C6Z Clostridium chitinase ChiB
+# Binding site for DW0 (Bisdionin C inhibitor)
+
+# Open structure
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8C6Z.pdb
+
+# Basic display setup
+hide atoms
+show cartoons
+color bychain
+
+# Style the protein
+cartoon style protein modeh tube radius 1.2
+transparency cartoons 50
+
+# === DW0 (Bisdionin C) binding site ===
+# Chain A: D34, W35, A60, F61, C73, G119, W120, S121, E160, N173, M244, Y246, D247, Y301, R303, W420
+select /A:34,35,60,61,73,119-121,160,173,244,246,247,301,303,420
+color sel gold target c
+show sel atoms
+style sel stick
+
+# Show Bisdionin C inhibitor
+select :DW0
+show sel atoms
+style sel ball
+color sel magenta
+
+# Show catalytic residues (typical GH18 chitinase)
+select /A:160  # Catalytic glutamate
+color sel red target c
+
+# Show Co ion
+select :CO
+show sel atoms
+style sel sphere
+color sel pink
+
+# Show Cd ions
+select :CD
+show sel atoms
+style sel sphere
+color sel gray
+
+# Add surface around active site
+select /A:34,35,60,61,73,119-121,160,173,244,246,247,301,303,420
+surface sel enclose sel
+transparency surface 70
+
+# Labels
+label :DW0@C1 text "Bisdionin C" height 2 color white
+
+# Center view on active site
+select :DW0
+view sel pad 10
+~select
+
+# Save session
+save /home/sness/data/vaults/casp/casp15_ligands/chimerax/8C6Z_T1188_session.cxs

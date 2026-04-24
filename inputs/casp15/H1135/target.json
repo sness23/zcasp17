@@ -1,0 +1,67 @@
+{
+  "target_id": "H1135",
+  "casp_year": 15,
+  "set": null,
+  "chains": [
+    {
+      "id": "chainA_194aa",
+      "type": "protein",
+      "sequence": "TEAQARAIVNSALKLYSQDKTGMVDFALESGGGSILSTRCSETYETKTALMSLFGIPLWYFSQSPRVVIQPDIYPGNCWAFKGSQGYLVVRLSMMIHPAAFTLEHIPKTLSPTGNISSAPKDFAVYGLENEYQEEGQLLGQFTYDQDGESLQMFQALKRPDDTAFQIVELRIFSNWGHPEYTCLYRFRVHGEPV",
+      "count": 9,
+      "source_chains": [
+        "A",
+        "C",
+        "E",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ]
+    },
+    {
+      "id": "chainB_25aa",
+      "type": "protein",
+      "sequence": "EDSWTSLEHILWPFTRLRHNGPPPV",
+      "count": 3,
+      "source_chains": [
+        "B",
+        "D",
+        "F"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": "CL",
+      "smiles": "[Cl-]",
+      "count": 3,
+      "sdf_paths": [
+        "ligands/lig_01_CL.sdf",
+        "ligands/lig_05_CL.sdf",
+        "ligands/lig_09_CL.sdf"
+      ]
+    },
+    {
+      "id": "lig_02",
+      "ccd": "K",
+      "smiles": "[K+]",
+      "count": 9,
+      "sdf_paths": [
+        "ligands/lig_02_K.sdf",
+        "ligands/lig_03_K.sdf",
+        "ligands/lig_04_K.sdf",
+        "ligands/lig_06_K.sdf",
+        "ligands/lig_07_K.sdf",
+        "ligands/lig_08_K.sdf",
+        "ligands/lig_10_K.sdf",
+        "ligands/lig_11_K.sdf",
+        "ligands/lig_12_K.sdf"
+      ]
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": ""
+}

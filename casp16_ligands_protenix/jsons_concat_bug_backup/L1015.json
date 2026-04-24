@@ -1,0 +1,19 @@
+[
+  {
+    "name": "L1015",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "IIGGTESKPHSRPYMAYLEIVTSNGPSKFCGGFLIRRNFVLTAAHCAGRSITVTLGAHNITEEEDTWQKLEVIKQFRHPKYNTSTLHHDIMLLKLKEKASLTLAVGTLPFVPPGRMCRVAGWGRTGVLKPGSDTLQEVKLRLMDPQACSHFRDFDHNLQLCVGNPRKTKSAFKGDSGGPLLCAGVAQGIVSYGRSDAKPPAVFTRISHYRPWINQILQAN",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "Cc1c(S(=O)(=O)Nc2ccc(-c3ccncc3)cc2S(C)(=O)=O)sc2ccc(F)cc12",
+          "count": 1
+        }
+      }
+    ]
+  }
+]

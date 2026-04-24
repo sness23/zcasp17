@@ -1,0 +1,51 @@
+# ChimeraX script: T1158v1 - 8SX8 MRP4 transporter + PGE1
+# Binding site for XPG (Prostaglandin E1)
+
+# Open structure
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8SX8.pdb
+
+# Basic display setup
+hide atoms
+show cartoons
+color bychain
+
+# Style the protein
+cartoon style protein modeh tube radius 1.2
+transparency cartoons 50
+
+# === XPG (PGE1) binding site ===
+# Chain A: H152, F156, Q160, F211, L321, F324, L363, L367, F368, S371, K375,
+#          D842, Q845, T846, Q849, R946, G991, M992, Q994, W995, R998
+select /A:152,156,160,211,321,324,363,367,368,371,375,842,845,846,849,946,991,992,994,995,998
+color sel gold target c
+show sel atoms
+style sel stick
+
+# Show PGE1 ligand
+select :XPG
+show sel atoms
+style sel ball
+color sel magenta
+
+# Key contacts
+select /A:152  # H152 - key polar contact
+color sel cyan target c
+
+select /A:842  # D842 - acidic residue
+color sel red target c
+
+# Add surface around substrate binding cavity
+select /A:152,156,160,211,321,324,363,367,368,371,375,842,845,846,849,946,991,992,994,995,998
+surface sel enclose sel
+transparency surface 70
+
+# Labels
+label :XPG text "PGE1" height 2 color white
+
+# Center view on substrate
+select :XPG
+view sel pad 10
+~select
+
+# Save session
+save /home/sness/data/vaults/casp/casp15_ligands/chimerax/8SX8_T1158v1_session.cxs

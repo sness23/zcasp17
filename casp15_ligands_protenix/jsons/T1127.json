@@ -1,0 +1,37 @@
+[
+  {
+    "name": "T1127",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "MFSRIRLATPTDVPFIHKLIHQMAVFERLTHLFVATESGLASTLFNSRPFQAVTVFLLEISPSPFPTTHDASSPDFTPFLETHKVDLPIEDPDREKFLPDKLNDVVVAGFVLFFPNYPSFLAKQGFYIEDIFMREPYRRKGFGKLLLTAVAKQAVKLGVGRVEWIVIDWNVNAINFYEQMGAQVFKEWRLCRLTGDALQAIDKLN",
+          "count": 1
+        }
+      },
+      {
+        "proteinChain": {
+          "sequence": "MFSRIRLATPTDVPFIHKLIHQMAVFERLTHLFVATESGLASTLFNSRPFQAVTVFLLEISPSPFPTTHDASSPDFTPFLETHKVDLPIEDPDREKFLPDKLNDVVVAGFVLFFPNYPSFLAKQGFYIEDIFMREPYRRKGFGKLLLTAVAKQAVKLGVGRVEWIVIDWNVNAINFYEQMGAQVFKEWRLCRLTGDALQAIDKLNI",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CCD_EPE",
+          "count": 2
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CCD_MPD",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CCD_COA",
+          "count": 2
+        }
+      }
+    ]
+  }
+]

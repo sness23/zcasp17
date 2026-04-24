@@ -1,0 +1,2 @@
+lig_id	ccd	smiles	count	sdf_paths
+lig_01		Nc1cccc([N+](=O)[O-])c1C(=O)N[C@@H]1C[C@H]1c1ccc(Cl)c(F)c1	2	ligands/lig_01_ligand_LIG_A_401.sdf;ligands/lig_02_ligand_LIG_B_401.sdf

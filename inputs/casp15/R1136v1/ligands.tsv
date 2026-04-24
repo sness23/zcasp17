@@ -1,0 +1,4 @@
+lig_id	ccd	smiles	count	sdf_paths
+lig_01	J93	CN(CCO)c1cc2c(s1)cc(s2)/C=C(\C#N)/c3ccc(cc3)C#N	1	
+lig_02	1TU	Cc1nc(c(n1C)O)Cc2cc(c(c(c2)F)O)F	1	
+lig_03	K	[K+]	1	

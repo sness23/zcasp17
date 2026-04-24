@@ -1,0 +1,49 @@
+# ChimeraX script: T1118v1 - 8B43 FoxA TonB-dependent transporter
+# Binding site for OX8 (ferrioxamine)
+
+# Open structure
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8B43.pdb
+
+# Basic display setup
+hide atoms
+show cartoons
+color bychain
+
+# Style the protein
+cartoon style protein modeh tube radius 1.2
+transparency cartoons 50
+
+# === OX8 (ferrioxamine) binding site ===
+# Chain A: Y445, Y611, Y664, K752, Y799, S800, F803
+select /A:445,611,664,752,799,800,803
+color sel gold target c
+show sel atoms
+style sel stick
+
+# Show ferrioxamine ligands
+select :OX8
+show sel atoms
+style sel stick
+color sel magenta
+
+# Show Fe ions
+select :FE
+show sel atoms
+style sel sphere
+color sel orange
+
+# Add surface around binding pocket
+select /A:445,611,664,752,799,800,803
+surface sel enclose sel
+transparency surface 70
+
+# Labels
+label :OX8@FE text "Ferrioxamine" height 2 color white
+
+# Center view on siderophore binding site
+select :OX8 :FE
+view sel pad 5
+~select
+
+# Save session
+save /home/sness/data/vaults/casp/casp15_ligands/chimerax/8B43_T1118_session.cxs

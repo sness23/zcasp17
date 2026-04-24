@@ -1,0 +1,30 @@
+{
+  "target_id": "L1015",
+  "casp_year": 16,
+  "set": "L1000",
+  "chains": [
+    {
+      "id": "A",
+      "type": "protein",
+      "sequence": "IIGGTESKPHSRPYMAYLEIVTSNGPSKFCGGFLIRRNFVLTAAHCAGRSITVTLGAHNITEEEDTWQKLEVIKQFRHPKYNTSTLHHDIMLLKLKEKASLTLAVGTLPFVPPGRMCRVAGWGRTGVLKPGSDTLQEVKLRLMDPQACSHFRDFDHNLQLCVGNPRKTKSAFKGDSGGPLLCAGVAQGIVSYGRSDAKPPAVFTRISHYRPWINQILQAN",
+      "count": 1,
+      "source_chains": [
+        "A"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": null,
+      "smiles": "Cc1c(S(=O)(=O)Nc2ccc(-c3ccncc3)cc2S(C)(=O)=O)sc2ccc(F)cc12",
+      "count": 1,
+      "sdf_paths": [
+        "ligands/lig_01_ligand_125_C_1.sdf"
+      ],
+      "source_name": "125"
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": "L1000 \u2014 125"
+}

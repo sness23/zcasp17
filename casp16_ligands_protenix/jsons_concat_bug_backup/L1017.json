@@ -1,0 +1,19 @@
+[
+  {
+    "name": "L1017",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "IIGGTESKPHSRPYMAYLEIVTSNGPSKFCGGFLIRRNFVLTAAHCAGRSITVTLGAHNITEEEDTWQKLEVIKQFRHPKYNTSTLHHDIMLLKLKEKASLTLAVGTLPFPPGRMCRVAGWGRTGVLKPGSDTLQEVKLRLMDPQACSHFRDFDHNLQLCVGNPRKTKSAFKGDSGGPLLCAGVAQGIVSYGRSDAKPPAVFTRISHYRPWINQILQAN",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CS(=O)(=O)NCc1c(C(=O)O)n(Cc2cccc3ccccc23)c2ccc(F)cc12",
+          "count": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,2 @@
+lig_id	ccd	smiles	count	source_name	source_task
+lig_01	PQQ	O=C([O-])c1cc(C(=O)[O-])c2c(n1)C(=O)C(=O)c1cc(C(=O)[O-])[nH]c1-2	1	PQQ	P

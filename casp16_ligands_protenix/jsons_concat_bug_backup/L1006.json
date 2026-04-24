@@ -1,0 +1,19 @@
+[
+  {
+    "name": "L1006",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "IIGGTESKPHSRPYMAYLEIVTSNGPSKFCGGFLIRRNFVLTAAHCAGRSITVTLGAHNITEEEDTWQKLEVIKQFRHPKYNTSTLHHDIMLLKLKEKASLTLAVGTLPFPPGRMCRVAGWGRTGVLKPGSDTLQEVKLRLMDPQACSHFRDFDHNLQLCVGNPRKTKSAFKGDSGGPLLCAGVAQGIVSYGRSDAKPPAVFTRISHYRPWINQILQAN",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CC(=O)NC(C)(C)Cc1c([C@@H](C2=C(O)[C@](C)(c3ccc(C)cc3)C2=O)c2ccccc2)[nH]c2cc(C)ccc12",
+          "count": 1
+        }
+      }
+    ]
+  }
+]

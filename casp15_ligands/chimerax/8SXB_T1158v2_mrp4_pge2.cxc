@@ -1,0 +1,51 @@
+# ChimeraX script: T1158v2 - 8SXB MRP4 transporter + PGE2
+# Binding site for P2E (Prostaglandin E2)
+
+# Open structure
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/8SXB.pdb
+
+# Basic display setup
+hide atoms
+show cartoons
+color bychain
+
+# Style the protein
+cartoon style protein modeh tube radius 1.2
+transparency cartoons 50
+
+# === P2E (PGE2) binding site ===
+# Chain A: H1472, F1476, Q1480, I1530, F1531, L1641, F1644, L1683, L1687, F1688,
+#          K1695, D2162, Q2165, T2166, Q2169, R2266, T2308, G2311, M2312, Q2314, W2315, R2318
+select /A:1472,1476,1480,1530,1531,1641,1644,1683,1687,1688,1695,2162,2165,2166,2169,2266,2308,2311,2312,2314,2315,2318
+color sel gold target c
+show sel atoms
+style sel stick
+
+# Show PGE2 ligand
+select :P2E
+show sel atoms
+style sel ball
+color sel magenta
+
+# Key contacts
+select /A:1472  # H1472 - key polar contact
+color sel cyan target c
+
+select /A:2162  # D2162 - acidic residue, closest contact (1.83Å to HO5)
+color sel red target c
+
+# Add surface around substrate binding cavity
+select /A:1472,1476,1480,1530,1531,1641,1644,1683,1687,1688,1695,2162,2165,2166,2169,2266,2308,2311,2312,2314,2315,2318
+surface sel enclose sel
+transparency surface 70
+
+# Labels
+label :P2E text "PGE2" height 2 color white
+
+# Center view on substrate
+select :P2E
+view sel pad 10
+~select
+
+# Save session
+save /home/sness/data/vaults/casp/casp15_ligands/chimerax/8SXB_T1158v2_session.cxs

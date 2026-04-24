@@ -1,0 +1,2 @@
+lig_id	ccd	smiles	count	sdf_paths
+lig_01		[O-]c1c[nH+]cc(Cl)c1	2	ligands/lig_01_ligand_LIG_E_1.sdf;ligands/lig_02_ligand_LIG_E_2.sdf

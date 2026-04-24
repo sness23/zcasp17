@@ -1,0 +1,19 @@
+[
+  {
+    "name": "L1012",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "IIGGTESKPHSRPYMAYLEIVTSPSKFCGGFLIRRNFVLTAAHCAGRSITVTLGAHNITEEEDTWQKLEVIKQFRHPKYNTSTLHHDIMLLKLKEKASLTLAVGTLPFPSQFNFVPPGRMCRVAGWGRTGVLKPGSDTLQEVKLRLMDPQACSHFRDFDHNLQLCVGNPRKTKSAFKGDSGGPLLCAGVAQGIVSYGRSDAKPPAVFTRISHYRPWINQ",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "COC(=O)c1ccc(NS(=O)(=O)c2sc3ccc(F)cc3c2C)c(S(C)(=O)=O)c1",
+          "count": 1
+        }
+      }
+    ]
+  }
+]

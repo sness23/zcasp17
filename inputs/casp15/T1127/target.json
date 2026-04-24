@@ -1,0 +1,58 @@
+{
+  "target_id": "T1127",
+  "casp_year": 15,
+  "set": null,
+  "chains": [
+    {
+      "id": "chainA_205aa",
+      "type": "protein",
+      "sequence": "MFSRIRLATPTDVPFIHKLIHQMAVFERLTHLFVATESGLASTLFNSRPFQAVTVFLLEISPSPFPTTHDASSPDFTPFLETHKVDLPIEDPDREKFLPDKLNDVVVAGFVLFFPNYPSFLAKQGFYIEDIFMREPYRRKGFGKLLLTAVAKQAVKLGVGRVEWIVIDWNVNAINFYEQMGAQVFKEWRLCRLTGDALQAIDKLN",
+      "count": 1,
+      "source_chains": [
+        "A"
+      ]
+    },
+    {
+      "id": "chainB_206aa",
+      "type": "protein",
+      "sequence": "MFSRIRLATPTDVPFIHKLIHQMAVFERLTHLFVATESGLASTLFNSRPFQAVTVFLLEISPSPFPTTHDASSPDFTPFLETHKVDLPIEDPDREKFLPDKLNDVVVAGFVLFFPNYPSFLAKQGFYIEDIFMREPYRRKGFGKLLLTAVAKQAVKLGVGRVEWIVIDWNVNAINFYEQMGAQVFKEWRLCRLTGDALQAIDKLNI",
+      "count": 1,
+      "source_chains": [
+        "B"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": "EPE",
+      "smiles": "C1CN(CCN1CCO)CCS(=O)(=O)O",
+      "count": 2,
+      "sdf_paths": [
+        "ligands/lig_01_EPE.sdf",
+        "ligands/lig_03_EPE.sdf"
+      ]
+    },
+    {
+      "id": "lig_02",
+      "ccd": "MPD",
+      "smiles": "C[C@@H](CC(C)(C)O)O",
+      "count": 1,
+      "sdf_paths": [
+        "ligands/lig_02_MPD.sdf"
+      ]
+    },
+    {
+      "id": "lig_03",
+      "ccd": "COA",
+      "smiles": "CC(C)(CO[P@](=O)(O)O[P@@](=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)n2cnc3c2ncnc3N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCS)O",
+      "count": 2,
+      "sdf_paths": [
+        "ligands/lig_04_COA.sdf",
+        "ligands/lig_05_COA.sdf"
+      ]
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": ""
+}

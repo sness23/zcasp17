@@ -1,0 +1,27 @@
+{
+  "target_id": "R1117v2",
+  "casp_year": 15,
+  "set": null,
+  "chains": [
+    {
+      "id": "0",
+      "type": "rna",
+      "sequence": "UGGGUUCCCUCACCCCAAUCAUAAAAAGG",
+      "count": 1,
+      "source_chains": [
+        "0"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": "PRF",
+      "smiles": "c1c(c2c([nH]1)N=C(NC2=O)N)CN",
+      "count": 1,
+      "sdf_paths": []
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": ""
+}

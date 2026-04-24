@@ -1,0 +1,10 @@
+# 7 CASP15 protein-ligand targets ≤1024 tokens — fits A40 48GB
+# RNA targets (R*) excluded — focusing on PDB protein-ligand entries
+# Run with: ./run_batch.sh manifest_A40.txt
+T1152
+T1146
+T1187
+T1127
+T1127v2
+T1188
+T1124

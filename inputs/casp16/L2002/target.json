@@ -1,0 +1,30 @@
+{
+  "target_id": "L2002",
+  "casp_year": 16,
+  "set": "L2000",
+  "chains": [
+    {
+      "id": "A",
+      "type": "protein",
+      "sequence": "IIGGRESRPHSRPYMAYLQIQSPAGQSRCGGFLVREDFVLTAAHCWGSNINVTLGAHNIQRRENTQQHITARRAIRHPQYNQRTIQNDIMLLQLSRRVRRNRNVNPVALPRAQEGLRPGTLCTVAGWGRVSMRRGTDTLREVQLRVQRDRQCLRIFGSYDPRRQICVGDRRERKAAFKGDSGGPLLCNNVAHGIVSYGKSSGVPPEVFTRVSSFLPWIRTTMRS",
+      "count": 1,
+      "source_chains": [
+        "A"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": null,
+      "smiles": "COC(=O)N(C)Cc1c(C(=O)O)n(Cc2cccc3ccc(F)cc23)c2ccccc12",
+      "count": 1,
+      "sdf_paths": [
+        "ligands/lig_01_ligand_380_C_1.sdf"
+      ],
+      "source_name": "380"
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": "L2000 \u2014 380"
+}

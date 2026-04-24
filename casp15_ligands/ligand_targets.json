@@ -1,0 +1,173 @@
+[
+  {
+    "target_id": "H1114",
+    "pdb_code": "7UTD",
+    "residues": "1093",
+    "oligo_state": "A4B8C8",
+    "description": "A0QUM5, A0QUM6, A0QUM7 7utd",
+    "is_auxiliary": false,
+    "status": "active"
+  },
+  {
+    "target_id": "T1118v1",
+    "pdb_code": "8B43",
+    "residues": "776",
+    "oligo_state": "A1",
+    "description": "Q9I116 8b43 Not a TS target:auxiliary structure for ligand prediction.",
+    "is_auxiliary": true,
+    "status": "active"
+  },
+  {
+    "target_id": "T1124",
+    "pdb_code": "7UX8",
+    "residues": "384",
+    "oligo_state": "A2",
+    "description": "MfnG, A0A0D4WTP2 7ux8",
+    "is_auxiliary": false,
+    "status": "active"
+  },
+  {
+    "target_id": "T1127",
+    "pdb_code": "8XBP",
+    "residues": "211",
+    "oligo_state": "A2",
+    "description": "Q9ZV05 8xbp",
+    "is_auxiliary": false,
+    "status": "active"
+  },
+  {
+    "target_id": "H1135",
+    "pdb_code": null,
+    "residues": "220",
+    "oligo_state": "A9B3",
+    "description": "O94901",
+    "is_auxiliary": false,
+    "status": "active"
+  },
+  {
+    "target_id": "T1146",
+    "pdb_code": null,
+    "residues": "310",
+    "oligo_state": "A1",
+    "description": "Bd0601 Q6MQ80",
+    "is_auxiliary": false,
+    "status": "active"
+  },
+  {
+    "target_id": "T1152",
+    "pdb_code": "7R1L",
+    "residues": "56",
+    "oligo_state": "A2",
+    "description": "Protein-carbohydrate complex 7r1l",
+    "is_auxiliary": false,
+    "status": "active"
+  },
+  {
+    "target_id": "T1127v2",
+    "pdb_code": "8XBP",
+    "residues": "211",
+    "oligo_state": "A2",
+    "description": "Q9ZV05 8xbp Not a TS target:auxiliary structure for ligand prediction.",
+    "is_auxiliary": true,
+    "status": "active"
+  },
+  {
+    "target_id": "T1158v1",
+    "pdb_code": "8SX8",
+    "residues": "1340",
+    "oligo_state": "A1",
+    "description": "MRP4 - mut E1202Q 8sx8 MRP4-PGE1 Not a TS target:auxiliary structure for ligand prediction.",
+    "is_auxiliary": true,
+    "status": "active"
+  },
+  {
+    "target_id": "T1158v2",
+    "pdb_code": "8SXB",
+    "residues": "1340",
+    "oligo_state": "A1",
+    "description": "MRP4 - mut E1202Q 8sxb MRP4-PGE2 Not a TS target:auxiliary structure for ligand prediction.",
+    "is_auxiliary": true,
+    "status": "active"
+  },
+  {
+    "target_id": "T1158v3",
+    "pdb_code": "8SX7",
+    "residues": "1340",
+    "oligo_state": "A1",
+    "description": "MRP4 - mut E1202Q 8sx7 MRP4-DHEAS Not a TS target:auxiliary structure for ligand prediction.",
+    "is_auxiliary": true,
+    "status": "active"
+  },
+  {
+    "target_id": "T1158v4",
+    "pdb_code": "8SWN",
+    "residues": "1340",
+    "oligo_state": "A1",
+    "description": "MRP4 - mut E1202Q 8swn MRP4-ATP Not a TS target:auxiliary structure for ligand prediction.",
+    "is_auxiliary": true,
+    "status": "active"
+  },
+  {
+    "target_id": "T1170",
+    "pdb_code": "7PBR",
+    "residues": "318",
+    "oligo_state": "A6",
+    "description": "RuvB 7pbr",
+    "is_auxiliary": false,
+    "status": "active"
+  },
+  {
+    "target_id": "H1171",
+    "pdb_code": "7PBL",
+    "residues": "366",
+    "oligo_state": "A6B1",
+    "description": "RuvB - RuvA (domain 3) 7pbl",
+    "is_auxiliary": false,
+    "status": "active"
+  },
+  {
+    "target_id": "H1172",
+    "pdb_code": "7PBP",
+    "residues": "366",
+    "oligo_state": "A6B2",
+    "description": "RuvB - 2x RuvA (domain 3) 7pbp",
+    "is_auxiliary": false,
+    "status": "active"
+  },
+  {
+    "target_id": "T1181",
+    "pdb_code": null,
+    "residues": "688",
+    "oligo_state": "A3",
+    "description": "G0XNW6",
+    "is_auxiliary": false,
+    "status": "active"
+  },
+  {
+    "target_id": "T1186",
+    "pdb_code": null,
+    "residues": "259",
+    "oligo_state": "A1",
+    "description": "beta-lactamase with dicloxacillin Not a TS target:auxiliary structure for ligand prediction.",
+    "is_auxiliary": true,
+    "status": "active"
+  },
+  {
+    "target_id": "T1187",
+    "pdb_code": "8AD2",
+    "residues": "166",
+    "oligo_state": "A2",
+    "description": "Q94EW1_TOBAC 8ad2",
+    "is_auxiliary": false,
+    "status": "active"
+  },
+  {
+    "target_id": "T1188",
+    "pdb_code": "8C6Z",
+    "residues": "630",
+    "oligo_state": "A1",
+    "description": "F8UNI4_CLOPF 8c6z",
+    "is_auxiliary": false,
+    "status": "active"
+  }
+]

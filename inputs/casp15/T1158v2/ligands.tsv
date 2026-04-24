@@ -1,0 +1,2 @@
+lig_id	ccd	smiles	count	sdf_paths
+lig_01	P2E	CCCCC[C@@H](\C=C\[C@H]1[C@@H](CC(=O)[C@@H]1C\C=C/CCCC(=O)O)O)O	1	ligands/lig_01_P2E.sdf

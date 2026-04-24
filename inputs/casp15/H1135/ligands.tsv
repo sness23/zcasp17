@@ -1,0 +1,3 @@
+lig_id	ccd	smiles	count	sdf_paths
+lig_01	CL	[Cl-]	3	ligands/lig_01_CL.sdf;ligands/lig_05_CL.sdf;ligands/lig_09_CL.sdf
+lig_02	K	[K+]	9	ligands/lig_02_K.sdf;ligands/lig_03_K.sdf;ligands/lig_04_K.sdf;ligands/lig_06_K.sdf;ligands/lig_07_K.sdf;ligands/lig_08_K.sdf;ligands/lig_10_K.sdf;ligands/lig_11_K.sdf;ligands/lig_12_K.sdf

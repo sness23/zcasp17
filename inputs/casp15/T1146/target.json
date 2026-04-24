@@ -1,0 +1,29 @@
+{
+  "target_id": "T1146",
+  "casp_year": 15,
+  "set": null,
+  "chains": [
+    {
+      "id": "A",
+      "type": "protein",
+      "sequence": "DQAYLYLQNIYSRDNVSKLHVLSLQQRLEYFSRIFLGKPYLGGALGEGANSAYDNDPLYRFDAFDATTYVETVAALTLSYGEAEFQKNMNVIRYQDGVVSLITRNHFTSVDWNPNVEKLGILRDVTAEIGLADVSTLQTLIDKKEWYKKQASAMVKVKDNEAKKVGGIIARTQAIRPQISALNFLSKEILTAKPDLLLRFPKAGIVNIVRKNWNVRDAIGTNLDVSHQGIIFERDGEIIFRHASYKKSSQYVVEVPLLEYVKKNFGDQTFAGLNVLSFV",
+      "count": 1,
+      "source_chains": [
+        "A"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": "NAG",
+      "smiles": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)CO)O)O",
+      "count": 1,
+      "sdf_paths": [
+        "ligands/lig_01_NAG.sdf"
+      ]
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": ""
+}

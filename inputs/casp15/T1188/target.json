@@ -1,0 +1,49 @@
+{
+  "target_id": "T1188",
+  "casp_year": 15,
+  "set": null,
+  "chains": [
+    {
+      "id": "A",
+      "type": "protein",
+      "sequence": "KLRNVMYYGDWSIWGGQGNFYPKDIPADKLTHLNFAFMDFNSSGELIYCDKDAAIGHPLGNLGVTYGDVNGGILNAFQVLKSENPNLKIGVSLGGWSKSGDFSTIAATPSIRAKFVENVMKFIKYTNMDFVDIDWEYPGDYREPDKTDNINDEGTPNASAGDKENYILLLQDLKEALNKQGKELGKVYELSVALPAGVSKIEKGIDVDKLFNIVDFANIMTYDMAGAWSTTSGHQTALYTNPNAPEEYKGLSVDESVKYYISQGAEREKIVVGAAYYTRGWEQVSDKGTDPNNPGLFGEAAVVNKDADLSPTPGALNEAPMKNGEGGRAGGVWGYNALDKLKSKYTGLKEYWDDSAKAPYLYNSETGAFFTYDNIRSIQEKAKYVKENNLGGIIGWMASQDATTNSTKRDELTTATKESLFGKEDLPKYEIKYTENDITCTVTPVKQSWGSGGVLKMSITNNEKLDESGEVLSTVETSAKTVKNMKVYIKTDGIAITGSQYPAGPVTKEGDYYVIDFGKISDGKLMKAGITFTFDLNLDKAIEDTNNIISIEVSQRMYQTSPEFNRQTIWENT",
+      "count": 1,
+      "source_chains": [
+        "A"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": "CO",
+      "smiles": "[Co+2]",
+      "count": 1,
+      "sdf_paths": [
+        "ligands/lig_01_CO.sdf"
+      ]
+    },
+    {
+      "id": "lig_02",
+      "ccd": "CD",
+      "smiles": "[Cd+2]",
+      "count": 2,
+      "sdf_paths": [
+        "ligands/lig_02_CD.sdf",
+        "ligands/lig_03_CD.sdf"
+      ]
+    },
+    {
+      "id": "lig_03",
+      "ccd": "DW0",
+      "smiles": "Cn1cnc2c1C(=O)N(C(=O)N2C)CCCN3C(=O)c4c(ncn4C)N(C3=O)C",
+      "count": 2,
+      "sdf_paths": [
+        "ligands/lig_04_DW0.sdf",
+        "ligands/lig_05_DW0.sdf"
+      ]
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": ""
+}

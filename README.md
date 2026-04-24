@@ -195,36 +195,44 @@ A full CASP-scale cross-model benchmark costs less than a tank of gas.
 
 ## Reproducing the benchmarks
 
-The benchmarks that produced the headline numbers live in companion directories (being migrated into this repo):
+Each benchmark arm lives in its own directory with a dedicated `README.md`:
 
-- `casp15_ligands/` — Chai-1 CASP15
-- `casp15_ligands_protenix/` — Protenix-v1 CASP15
-- `casp16_ligands/` — Chai-1 CASP16 pharma
-- `casp16_ligands_protenix/` — Protenix-v1 CASP16 pharma
-- `inputs/` — canonical definitions + adapters
-- `casp-viewer/` — Svelte web app for pose visualization
+- [`casp15_ligands/`](casp15_ligands/) — Chai-1 CASP15 (11 targets, ~$3)
+- [`casp15_ligands_protenix/`](casp15_ligands_protenix/) — Protenix-v1 CASP15 (12 targets, $1.54)
+- [`casp16_ligands/`](casp16_ligands/) — Chai-1 CASP16 pharma (44 targets, $1.80)
+- [`casp16_ligands_protenix/`](casp16_ligands_protenix/) — Protenix-v1 CASP16 pharma (partial, $0.93)
+- [`inputs/`](inputs/) — canonical target definitions (260 targets) + pipeline adapters
+- [`spider/`](spider/) — predictioncenter.org scrapers (`spider.py` for CASP15/16, `spider17.py` for CASP17)
+- [`MANUSCRIPT.md`](MANUSCRIPT.md) — unified scientific write-up of the CASP15 + CASP16 benchmarks and the homodimer-bug case study (preprint draft)
 
-Each has its own `README.md` with full reproduction steps. A fresh CASP15 Chai-1 rerun: ~2 hr on an A40, ~45 min on an H100, total ~$3.
+A fresh CASP15 Chai-1 rerun: ~2 hr on an A40, ~45 min on an H100, total ~$3.
 
 Generic recipe:
 
 ```bash
-# 1. Clone canonical inputs
+# 1. Build / refresh canonical inputs
 cd inputs/ && python3 build_canonical.py
 
 # 2. Emit pipeline-specific inputs
-python3 adapters/to_chai_fasta.py \
+python3 inputs/adapters/to_chai_fasta.py \
   inputs/casp17/*/target.json \
-  --out-dir casp17_ligands/fastas/
+  --out-dir casp15_ligands/fastas/
 
-# 3. Rent a GPU (RunPod / Vast.ai)
-./run_batch.sh manifest.txt
+python3 inputs/adapters/to_protenix_json.py \
+  inputs/casp17/*/target.json \
+  --out-dir casp15_ligands_protenix/jsons/
 
-# 4. Score
-python3 score_lddt_pli.py --refs refs/ --results results/
+# 3. Prep references (split crystal → receptor + ligand SDFs)
+python3 casp15_ligands/prep_references.py
+
+# 4. Rent a GPU (RunPod / Vast.ai), fold
+./casp15_ligands/run_batch.sh manifest_A40.txt
+
+# 5. Score with OpenStructure
+python3 casp15_ligands/score_lddt_pli.py --refs refs/ --results results/
 ```
 
-See [`docs/PIPELINE.md`](docs/PIPELINE.md) for the full methodology.
+See [`docs/PIPELINE.md`](docs/PIPELINE.md) for the full methodology and [`MANUSCRIPT.md`](MANUSCRIPT.md) for the paper-form scientific write-up.
 
 ---
 

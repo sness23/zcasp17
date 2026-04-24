@@ -1,0 +1,3 @@
+lig_id	ccd	smiles	count	sdf_paths
+lig_01	ATP	c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO[P@@](=O)(O)O[P@](=O)(O)OP(=O)(O)O)O)O)N	2	ligands/lig_01_ATP.sdf;ligands/lig_03_ATP.sdf
+lig_02	MG	[Mg+2]	2	ligands/lig_02_MG.sdf;ligands/lig_04_MG.sdf

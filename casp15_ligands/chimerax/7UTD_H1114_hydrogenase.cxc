@@ -1,0 +1,98 @@
+# ChimeraX script: H1114 - 7UTD [NiFe]-hydrogenase Huc
+# Binding sites for F3S (3Fe-4S cluster), MQ9 (menaquinone), 3NI (NiFe cluster), FCO (Fe-CO)
+
+# Open structure
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/7UTD.pdb
+
+# Basic display setup
+hide atoms
+show cartoons
+color bychain
+
+# Style the protein
+cartoon style protein modeh tube radius 1.2
+transparency cartoons 60
+
+# === F3S (3Fe-4S cluster) binding site ===
+# Chain A: R60
+# Chain B: A11, C12, S13, G14, N15, E72, G73, G111, D112, C113, G160, C161, P162
+select /A:60
+color sel gold target c
+show sel atoms
+style sel stick
+
+select /B:11-15,72,73,111-113,160-162
+color sel gold target c
+show sel atoms
+style sel stick
+
+# === MQ9 (menaquinone) binding site ===
+# Chain B: F209, K212, Q213, S214, C226, F228, Y229, M287, P289, L299, Y301, M302, G303, A305, A306, R309
+# Chain Q: F58, G62, D63, A66
+select /B:209,212-214,226,228,229,287,289,299,301-303,305,306,309
+color sel orange target c
+show sel atoms
+style sel stick
+
+select /Q:58,62,63,66
+color sel orange target c
+show sel atoms
+style sel stick
+
+# === 3NI (NiFe active site) binding site ===
+# Chain A: C62, I64, C65, R443, C510, V512, C513
+select /A:62,64,65,443,510,512,513
+color sel cyan target c
+show sel atoms
+style sel stick
+
+# === FCO (Fe-CO cofactor) binding site ===
+# Chain A: C65, H69, A441, A442, R443, G444, L446, T464, P465, T466, C510, C513
+select /A:65,69,441-444,446,464-466,510,513
+color sel magenta target c
+show sel atoms
+style sel stick
+
+# Show Fe-S clusters
+select :F3S
+show sel atoms
+style sel sphere
+color sel #FE7000
+
+# Show menaquinone
+select :MQ9
+show sel atoms
+style sel stick
+color sel yellow
+
+# Show NiFe cluster
+select :3NI
+show sel atoms
+style sel sphere
+color sel #00CED1
+
+# Show Fe-CO cofactor
+select :FCO
+show sel atoms
+style sel sphere
+color sel purple
+
+# Show Mg ions
+select :MG
+show sel atoms
+style sel sphere
+color sel green
+
+# Labels
+label :F3S@FE1 text "F3S" height 2 color white offset 0,2,0
+label :MQ9@C1 text "MQ9" height 2 color white offset 0,2,0
+label :3NI text "NiFe" height 2 color white
+label :FCO text "FCO" height 2 color white
+
+# View the active site
+select :3NI :FCO
+view sel pad 5
+~select
+
+# Save session
+save /home/sness/data/vaults/casp/casp15_ligands/chimerax/7UTD_H1114_session.cxs

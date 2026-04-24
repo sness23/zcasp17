@@ -1,0 +1,89 @@
+{
+  "target_id": "H1171v1",
+  "casp_year": 15,
+  "set": null,
+  "chains": [
+    {
+      "id": "chainA_312aa",
+      "type": "protein",
+      "sequence": "TLRPQYFKEYIGQDKVKDQLKIFIEAAKLRDEALDHTLLFGPPGLGKTTMAFVIANEMGVNLKQTSGPAIEKAGDLVAILNDLEPGDILFIDEIHRMPMAVEEVLYSAMEDYYIDIMIGAGETSRSVHLDLPPFTLVGATTRAGMLSNPLRARFGINGHMEYYELPDLTEIVERTSEIFEMTITPEAALELARRSRGTPRIANRLLKRVRDYAQIMGDGVIDDKIADQALTMLDVDHEGLDYVDQKILRTMIEMYGGGPVGLGTLSVNIAEERETVEDMYEPYLIQKGFIMRTRTGRVATAKAYEHMGYDYT",
+      "count": 4,
+      "source_chains": [
+        "A",
+        "B",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "id": "chainC_309aa",
+      "type": "protein",
+      "sequence": "TLRPQYFKEYIGQDKVKDQLKIFIEAAKLRDEALDHTLLFGPPGLGKTTMAFVIANEMGVNLKQTSGPAIEKAGDLVAILNDLEPGDILFIDEIHRMPMAVEEVLYSAMEDYYIDIMITSRSVHLDLPPFTLVGATTRAGMLSNPLRARFGINGHMEYYELPDLTEIVERTSEIFEMTITPEAALELARRSRGTPRIANRLLKRVRDYAQIMGDGVIDDKIADQALTMLDVDHEGLDYVDQKILRTMIEMYGGGPVGLGTLSVNIAEERETVEDMYEPYLIQKGFIMRTRTGRVATAKAYEHMGYDYTR",
+      "count": 1,
+      "source_chains": [
+        "C"
+      ]
+    },
+    {
+      "id": "chainD_313aa",
+      "type": "protein",
+      "sequence": "TLRPQYFKEYIGQDKVKDQLKIFIEAAKLRDEALDHTLLFGPPGLGKTTMAFVIANEMGVNLKQTSGPAIEKAGDLVAILNDLEPGDILFIDEIHRMPMAVEEVLYSAMEDYYIDIMIGAGETSRSVHLDLPPFTLVGATTRAGMLSNPLRARFGINGHMEYYELPDLTEIVERTSEIFEMTITPEAALELARRSRGTPRIANRLLKRVRDYAQIMGDGVIDDKIADQALTMLDVDHEGLDYVDQKILRTMIEMYGGGPVGLGTLSVNIAEERETVEDMYEPYLIQKGFIMRTRTGRVATAKAYEHMGYDYTR",
+      "count": 1,
+      "source_chains": [
+        "D"
+      ]
+    },
+    {
+      "id": "chainG_48aa",
+      "type": "protein",
+      "sequence": "SEDAEQEAVAALVALGYKPQEASRMVSKIARPDASSETLIRDALRAAL",
+      "count": 1,
+      "source_chains": [
+        "G"
+      ]
+    },
+    {
+      "id": "chainU_15aa",
+      "type": "dna",
+      "sequence": "GAACCTTCGAGGAAG",
+      "count": 1,
+      "source_chains": [
+        "U"
+      ]
+    },
+    {
+      "id": "chainV_15aa",
+      "type": "dna",
+      "sequence": "CTTCCTCGAAGGTTC",
+      "count": 1,
+      "source_chains": [
+        "V"
+      ]
+    }
+  ],
+  "ligands": [
+    {
+      "id": "lig_01",
+      "ccd": "AGS",
+      "smiles": "c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)OP(=O)(O)OP(=S)(O)O)O)O)N",
+      "count": 5,
+      "sdf_paths": []
+    },
+    {
+      "id": "lig_02",
+      "ccd": "ADP",
+      "smiles": "c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO[P@](=O)(O)OP(=O)(O)O)O)O)N",
+      "count": 1,
+      "sdf_paths": []
+    },
+    {
+      "id": "lig_03",
+      "ccd": "MG",
+      "smiles": "[Mg+2]",
+      "count": 5,
+      "sdf_paths": []
+    }
+  ],
+  "receptor_pdb": "receptor.pdb",
+  "notes": ""
+}

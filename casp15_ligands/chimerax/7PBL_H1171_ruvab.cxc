@@ -1,0 +1,68 @@
+# ChimeraX script: H1171 - 7PBL RuvB-RuvA complex
+# Binding sites for ADP and AGS (ATP analog)
+
+# Open structure
+open /home/sness/data/vaults/casp/casp15_ligands/pdb/7PBL.pdb
+
+# Basic display setup
+hide atoms
+show cartoons
+color bychain
+
+# Style the protein
+cartoon style protein modeh tube radius 1.2
+transparency cartoons 50
+
+# === ADP binding site (Chain D) ===
+# Binding residues: L20, Y28, I29, P61, G62, L63, G64, K65, T66, T67, Y181, I189, P217, R218, N221
+select /D:20,28,29,61-67,181,189,217,218,221
+color sel gold target c
+show sel atoms
+style sel stick
+
+# === AGS binding site (Chains A, F) ===
+# Chain A: L20, R21, P22, Y28, I29, G30, Q31, P61, G62, L63, G64, K65, T66, T67, D110, T159, Y181, I189, R192, P217, R218, N221
+# Chain F: E128, P167, R171
+select /A:20-22,28-31,61-67,110,159,181,189,192,217,218,221
+color sel cornflowerblue target c
+show sel atoms
+style sel stick
+
+select /F:128,167,171
+color sel cornflowerblue target c
+show sel atoms
+style sel stick
+
+# Show ligands
+select :ADP
+show sel atoms
+style sel ball
+color sel red
+
+select :AGS
+show sel atoms
+style sel ball
+color sel magenta
+
+# Show Mg ions
+select :MG
+show sel atoms
+style sel sphere
+color sel green
+
+# Add surface around binding sites
+select /D:20,28,29,61-67,181,189,217,218,221 | /A:20-22,28-31,61-67,110,159,181,189,192,217,218,221 | /F:128,167,171
+surface sel enclose sel
+transparency surface 70
+
+# Labels
+label :ADP text "ADP" height 2 color white
+label :AGS text "AGS" height 2 color white
+
+# Center view
+select :ADP :AGS
+view sel
+~select
+
+# Save session
+save /home/sness/data/vaults/casp/casp15_ligands/chimerax/7PBL_H1171_session.cxs

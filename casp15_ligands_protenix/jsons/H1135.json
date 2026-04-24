@@ -1,0 +1,31 @@
+[
+  {
+    "name": "H1135",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "TEAQARAIVNSALKLYSQDKTGMVDFALESGGGSILSTRCSETYETKTALMSLFGIPLWYFSQSPRVVIQPDIYPGNCWAFKGSQGYLVVRLSMMIHPAAFTLEHIPKTLSPTGNISSAPKDFAVYGLENEYQEEGQLLGQFTYDQDGESLQMFQALKRPDDTAFQIVELRIFSNWGHPEYTCLYRFRVHGEPV",
+          "count": 9
+        }
+      },
+      {
+        "proteinChain": {
+          "sequence": "EDSWTSLEHILWPFTRLRHNGPPPV",
+          "count": 3
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CCD_CL",
+          "count": 3
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CCD_K",
+          "count": 9
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+lig_id	ccd	smiles	count	sdf_paths
+lig_01	CO	[Co+2]	1	ligands/lig_01_CO.sdf
+lig_02	CD	[Cd+2]	2	ligands/lig_02_CD.sdf;ligands/lig_03_CD.sdf
+lig_03	DW0	Cn1cnc2c1C(=O)N(C(=O)N2C)CCCN3C(=O)c4c(ncn4C)N(C3=O)C	2	ligands/lig_04_DW0.sdf;ligands/lig_05_DW0.sdf
