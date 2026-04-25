@@ -83,7 +83,7 @@ Key targets:
 | **L4017** (Mpro) | 0.897 | 0.61 Å | 0.899 | **2 / 219** | 25/26 |
 | L4015 (Mpro) | 0.889 | 0.49 Å | 0.918 | 5 / 219 | 24/26 |
 
-**All 14 Chymase targets beat the CASP16 median-of-best.** 4 of 14 landed top-5 of 129 submissions.
+**All 14 *scored* Chymase targets beat the CASP16 median-of-best.** 4 of 14 landed top-5 of 129 submissions. (The L1000 set has 17 monomer Chymase targets total; L1006 / L1007 / L1008 produced no LDDT_pli score because OST's graph-isomorphism matcher couldn't align the predicted ligand atoms to the reference SDF — a scoring-tool limitation, not a prediction failure. 17 − 3 = 14 scored.)
 
 Mpro is bimodal: when it works, it's top-5 of 200+ submissions. When it fails, the ligand is placed 30–50 Å from the real binding pocket — a pattern traced to the homodimer input bug (see [HOMODIMER-BUG.md](HOMODIMER-BUG.md)).
 
