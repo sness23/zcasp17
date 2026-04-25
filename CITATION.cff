@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use zcasp17 (the pipeline, the canonical inputs, the homodimer-bug fix, or any of the benchmark numbers) in academic work, please cite as below."
+title: "zcasp17: A reproducible multi-model benchmarking pipeline for AlphaFold-3-class predictors against the CASP15 / CASP16 ligand tracks"
+abstract: "An open, reproducible pipeline that benchmarks multiple AlphaFold-3-class structure predictors (Chai-1, Protenix-v1, with Boltz-2 planned) against the CASP15 and CASP16 ligand tracks using OpenStructure scoring. Includes a canonical inputs tree spanning 260 targets across CASP15/16/17, pipeline adapters for each predictor, an OST-based scoring harness producing CASP-comparable LDDT_pli and BiSyRMSD metrics, and joins against CASP's public per-submission ranking data. Notable findings include #1 ranking against all 26 competing CASP15 groups on target T1124, and the discovery and fix of a homodimer-input bug present in the canonical chai-lab CASP16 reference pipeline that caused catastrophic ligand misplacement on multi-chain receptors."
+type: software
+authors:
+  - family-names: "Ness"
+    given-names: "Steven"
+    email: "sness@sness.net"
+repository-code: "https://github.com/sness23/zcasp17"
+url: "https://github.com/sness23/zcasp17"
+license: MIT
+version: "0.1"
+date-released: "2026-04-23"
+keywords:
+  - "structural biology"
+  - "AlphaFold-3"
+  - "Chai-1"
+  - "Protenix"
+  - "CASP"
+  - "protein-ligand prediction"
+  - "open science"
+  - "benchmarking"
+references:
+  - type: software
+    title: "Mol*"
+    url: "https://molstar.org/"
+  - type: software
+    title: "OpenStructure"
+    url: "https://openstructure.org/"
+  - type: software
+    title: "Chai-1 (chai-lab)"
+    url: "https://github.com/chaidiscovery/chai-lab"
+  - type: software
+    title: "Protenix"
+    url: "https://github.com/bytedance/Protenix"
+preferred-citation:
+  type: software
+  title: "zcasp17: A reproducible multi-model benchmarking pipeline for AlphaFold-3-class predictors against the CASP ligand tracks"
+  authors:
+    - family-names: "Ness"
+      given-names: "Steven"
+  url: "https://github.com/sness23/zcasp17"
+  year: 2026
